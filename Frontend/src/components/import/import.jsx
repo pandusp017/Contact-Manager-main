@@ -46,7 +46,7 @@ function ImportUI(props) {
     const file = event.dataTransfer.files[0];
     console.log(file);
 
-    if (file.type === "text/csv") {
+    if (file.type === 'text/csv') {
 
 
 
