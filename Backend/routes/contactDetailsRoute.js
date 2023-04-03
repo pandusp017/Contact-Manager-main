@@ -10,7 +10,7 @@ router.get("/",async(req,res)=>{
         const contacts = await contactsModel.find({user:req.user.data});
        
             res.status(200).json({
-                status:"success",
+                status:'success',
                 data : contacts
             })
         
