@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans';
+    font-style: normal;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: 1px solid black;
+
+}
+
+.Rectangle1 {
+    position: absolute;
+    background: rgba(206, 243, 255, 0.25);
+    box-shadow: 0px 4px 22px #B2DFFF;
+    backdrop-filter: blur(0.26px);
+    -webkit-backdrop-filter: blur(0.26px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    left: 10px;
+    top: 10px;
+    width: 1200px;
+    height: 600px;
+}
+
+.login-logo {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.login-logo h1 {
+    margin-top: 70px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 18px;
+    letter-spacing: 0.25px;
+    color: #7D8CC4;
+}
+
+.login-logo p {
+    margin-left: 0;
+    margin-top: 25px;
+    letter-spacing: 0.25px;
+    color: #000000;
+    opacity: 0.6;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+
+}
+
+.inputs {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 65px;
+}
+
+.login-form-buttons {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 65px;
+}
+
+.email {
+    height: 54px;
+    width: 450px;
+    background: #FFFFFF;
+    border: 1px solid #E2E2E2;
+    border-radius: 5px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 15px;
+    padding-left: 25px;
+}
+
+.password {
+    height: 54px;
+    width: 450px;
+    background: #FFFFFF;
+    border: 1px solid #E2E2E2;
+    border-radius: 5px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 15px;
+    padding-left: 25px;
+    position: relative;
+}
+
+.inputs3>input {
+    background: #FFFFFF;
+    border: 1px solid #E2E2E2;
+    border-radius: 5px;
+
+}
+
+.inputpass {
+    position: relative;
+}
+
+.eye {
+    position: absolute;
+    top: 40%;
+    right: 6%;
+}
+
+.signin-button {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    background: #7D8CC4;
+    border-radius: 5px;
+    height: 54px;
+    width: 450px;
+    color: #FFFFFF;
+}
+
+.signup-link {
+    color: #7D8CC4;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.right {
+    position: absolute;
+    top: 5%;
+    right: 3%;
+}
+
+.left {
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+}
+
+.containerleft {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.containerright {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.eye {
+    cursor: pointer;
+}

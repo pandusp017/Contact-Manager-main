@@ -1,0 +1,97 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.popup {
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 20px;
+  width: 25%;
+  height: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup > input{
+  position: absolute;
+  left: 50%;
+  top: 30vh;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+}
+
+.popuoOndrag {
+  background-color: white;
+  border: 5px dashed rgb(0, 174, 255);
+
+  padding: 20px;
+  width: 25%;
+  height: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.import_popup__TmL4\+>input {
+  position: absolute;
+  left: 50%;
+  top: 30vh;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+}
+
+.importIcon {
+  width: 60%;
+  height: 60%;
+}
+
+
+.cancelBtn {
+  margin-top: 4vh;
+  width: 60%;
+  height: 18%;
+  background: #2DA5FC;
+  border-radius: 5px;
+  border: 0;
+  color: white;
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3vh;
+
+}
+
+label {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+#choose {
+  position: absolute;
+  left: 50%;
+  top: 30vh;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+}
+
+.tickMark {
+  width: 50%;
+  height: 50%;
+}

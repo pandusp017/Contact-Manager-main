@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans';
+    font-style: normal;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: 1px solid black;
+
+}
+
+.Rectangle1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 80%;
+    border-radius: 20px;
+    position: relative;
+    margin: 165px 164px;
+}
+
+.logo {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo h1 {
+    font-weight: 400;
+    font-size: 40px;
+    color: #7D8CC4;
+    ;
+}
+
+.logo p {
+    font-weight: 400;
+    font-size: 15px;
+
+}
+
+.inputs3 {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 65px;
+}
+
+.inputs3>div>input {
+    height: 54px;
+    width: 450px;
+    background: #FFFFFF;
+    border: 1px solid #E2E2E2;
+    border-radius: 5px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 15px;
+    padding-left: 25px;
+    background: #FFFFFF;
+    border: 1px solid #E2E2E2;
+    border-radius: 5px;
+}
+
+.buttons {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 65px;
+}
+
+.email {
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.password {
+    height: 54px;
+    width: 450px;
+    background: #FFFFFF;
+    border: 1px solid #E2E2E2;
+    border-radius: 5px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 15px;
+    padding-left: 25px;
+    position: relative;
+}
+
+.c-password{
+    height: 54px;
+    width: 450px;
+    background: #e8f0fe;
+    border: 1px solid #E2E2E2;
+    border-radius: 5px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 15px;
+    padding-left: 25px;
+    position: relative;
+}
+
+.inputpass {
+    position: relative;
+}
+
+.eye {
+    position: absolute;
+    top: 40%;
+    right: 6%;
+}
+
+.button1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    background: #7D8CC4;
+    border-radius: 5px;
+    height: 54px;
+    width: 450px;
+    color: #FFFFFF;
+}
+
+.signup {
+    color: #7D8CC4;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.right {
+    position: absolute;
+    top: 5%;
+    right: 3%;
+}
+
+.left {
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+}
+
+.containerleft {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.containerright {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+}
