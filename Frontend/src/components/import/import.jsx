@@ -82,7 +82,7 @@ function ImportUI(props) {
     <div className={styles.overlay} onDragOver={handleDragOver} onDrop={handleDrop} >
 
       {!file ? <div className={fileDraged ? styles.popuoOndrag : styles.popup}  >
-        <label htmlFor="choose">
+        <label htmlFor='choose'>
           <img src={importIcon} alt="import icon" className={styles.importIcon} />
         </label>
         <input type="file" id='choose' onChange={handleDrop} onDragOver={handleDragOver} onDrop={handleDrop} />
