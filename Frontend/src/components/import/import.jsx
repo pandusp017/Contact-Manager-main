@@ -25,7 +25,7 @@ function ImportUI(props) {
       if (!apiCallMade) {
         const response = await axios.post(`${url}/contacts`, formData, {
           headers: {
-            "Content-Type": "multipart/form-data",
+            "Content-Type": 'multipart/form-data',
             "authorization": `${token}`
           },
         });
