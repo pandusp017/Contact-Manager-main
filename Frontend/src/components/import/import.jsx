@@ -19,7 +19,7 @@ function ImportUI(props) {
 
   const fileUpload = async (csv) => {
     const formData = new FormData();
-    formData.append("file", csv);
+    formData.append('file', csv);
 
     try {
       if (!apiCallMade) {
