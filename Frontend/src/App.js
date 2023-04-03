@@ -10,7 +10,7 @@ function App() {
     <BrowserRouter>
         <Routes>
           <Route path='/' element={<Login/>}/>
-          <Route path="/register" element={<SignUp/>}/>
+          <Route path='/register' element={<SignUp/>}/>
           <Route path="/contacts" element={<PrivateRoute Child={ContactPage} />}/>
           {/* <Route path="/contacts" element={<Table />} /> */}
 
