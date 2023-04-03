@@ -24,7 +24,7 @@ app.use(resisterAndLogin);
 
 app.use('/contacts',checkToken,contactRoute);
 
-app.use("/contacts",checkToken,contactDetails);
+app.use('/contacts',checkToken,contactDetails);
 
 app.listen(PORT, () => {
   console.log(`Server started on http://localhost:${PORT}`);
