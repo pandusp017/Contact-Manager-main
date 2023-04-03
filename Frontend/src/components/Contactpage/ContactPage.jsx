@@ -204,7 +204,7 @@ function ContactPage() {
             <div className='searchBar'>
               <div className='searchDrop'>
                 <AiOutlineSearch></AiOutlineSearch>
-                <input type={"text"} value={enteredText} className='input-area' placeholder='Search by Email id...' onChange={handleFilter} onBlur={cancelDropDown}></input>
+                <input type={'text'} value={enteredText} className='input-area' placeholder='Search by Email id...' onChange={handleFilter} onBlur={cancelDropDown}></input>
                 <RxCrossCircled onClick={clearBtn}></RxCrossCircled>
               </div>
 
